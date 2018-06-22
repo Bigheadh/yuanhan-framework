@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+					com.yuanhan.yuanhan.quark.config.MicroServiceConfig,\
+					com.yuanhan.yuanhan.quark.config.MicroServiceEndpointConfig
+					

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+		com.yuanhan.yuanhan.core.config.JpaDefaultConfiguration,\
+		com.yuanhan.yuanhan.core.config.CommonConfiguration

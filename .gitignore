@@ -1,0 +1,28 @@
+
+## ignore maven target
+**/target/
+**/bin/
+
+## ignore eclipse files
+**/.settings/
+**/.project
+**/.classpath
+
+
+## ignore intelliJ files
+**/.idea/
+**/*.iml
+
+
+## ignore mac files
+*/.DS_Store
+.DS_Store
+
+
+## ignore tmp and swp files
+**/*.bak
+**/*.tem
+**/*.tmp
+**/*.temp
+**/*.*~
+**/~*.*
