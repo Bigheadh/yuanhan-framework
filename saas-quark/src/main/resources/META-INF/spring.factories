@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+					com.zhjs.saas.quark.config.MicroServiceConfig,\
+					com.zhjs.saas.quark.config.MicroServiceEndpointConfig
+					

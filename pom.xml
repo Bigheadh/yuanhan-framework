@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.yuanhan</groupId>
-	<artifactId>yuanhan-framework</artifactId>
+	<groupId>com.zhjs</groupId>
+	<artifactId>saas-framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
-	<description>yuanhan-Framework is a basic framework, the micro beginning of everything</description>
+	<description>SaaS-Framework is a basic framework, the micro beginning of everything</description>
 	
 	<organization>
 		<name>Wisdom Constructor Tech CO., LTD</name>
@@ -15,7 +15,7 @@
 	
 	<developers>
 		<developer>
-			<name>yuanhan</name>
+			<name>Jackie Wang</name>
 			<email/>
 			<organization>Technology Department</organization>
 			<organizationUrl>http://www.zhihuijianshe.com</organizationUrl>
@@ -26,20 +26,20 @@
 	</developers>
 
 	<modules>
-		<module>yuanhan-core</module>
-		<module>yuanhan-command</module>
-		<module>yuanhan-trace</module>
-		<module>yuanhan-notification</module>
-		<module>yuanhan-router</module>
-		<module>yuanhan-scheduler</module>
-    	<module>yuanhan-quantum</module>
-	    <module>yuanhan-quark</module>
-	    <module>yuanhan-security</module>
-	    <module>yuanhan-dsl</module>
-	    <module>yuanhan-flow</module>
-    	<module>yuanhan-dependencies</module>
-    	<module>yuanhan-api-doc</module>
-    	<module>yuanhan-parent</module>
+		<module>saas-core</module>
+		<module>saas-command</module>
+		<module>saas-trace</module>
+		<module>saas-notification</module>
+		<module>saas-router</module>
+		<module>saas-scheduler</module>
+    	<module>saas-quantum</module>
+	    <module>saas-quark</module>
+	    <module>saas-security</module>
+	    <module>saas-dsl</module>
+	    <module>saas-flow</module>
+    	<module>saas-dependencies</module>
+    	<module>saas-api-doc</module>
+    	<module>saas-parent</module>
 	</modules>
 
 	<properties>
@@ -51,7 +51,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
 
-		<yuanhan.framework.version>0.0.1-SNAPSHOT</yuanhan.framework.version>
+		<saas.framework.version>0.0.1-SNAPSHOT</saas.framework.version>
 
 		<springframework.version>4.3.11.RELEASE</springframework.version>
 		<springframework.boot.version>1.5.13.RELEASE</springframework.boot.version>

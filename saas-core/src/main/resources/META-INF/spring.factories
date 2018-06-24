@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+		com.zhjs.saas.core.config.JpaDefaultConfiguration,\
+		com.zhjs.saas.core.config.CommonConfiguration
